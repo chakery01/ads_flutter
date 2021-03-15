@@ -1,12 +1,11 @@
 import 'dart:io';
 import 'package:flutter/services.dart';
 
-class Ads {
+class Ads{
   
   static const _channel = MethodChannel('ads_flutter');
 
-  Ads.initialize({required  List<String> testDeviceIds}) {
-    //testDeviceIds not null
+  Ads.initialize({List<String>? testDeviceIds}) {
     _channel.invokeListMethod('initiakize', testDeviceIds);
   }
 

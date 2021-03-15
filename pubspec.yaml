@@ -1,8 +1,7 @@
 name: ads_flutter
 description: A new Flutter project.
-version: 1.0.0+1
-homepage: https://github.com/chakery01/sample_helloword
-
+homepage: https://github.com/chakery01/ads_flutter.git
+version: 1.0.4
 environment:
   sdk: ">=2.12.0 <3.0.0"
 
